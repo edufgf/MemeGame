@@ -1,0 +1,8 @@
+Procure o arquivo "Meme Game.jar" na pasta "Meme Game" e execute-o (Dois cliques com botão esquerdo).
+
+
+
+OBS: 
+1- A Resolução da Tela do Jogo é 750x700.Telas com resoluções menores não conseguiram
+exibir a tela toda.
+2-Use 'Barra de Espaço' para pular as falas.
