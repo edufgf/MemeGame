@@ -1,0 +1,71 @@
+import jplay.*;
+public class Level {
+    public int lvl=0;
+
+public Level() {
+      
+     GameImage campo = new GameImage(Main.cenario[lvl]);
+     Sprite manolo = new Sprite("manolo02.png");
+     float centrocampo_x , centrocampo_y;
+     centrocampo_x = campo.width/2+Main.espaco_x1 - manolo.width/2;
+     centrocampo_y = campo.height/2+Main.espaco_y1 - manolo.height/2;
+     campo.x = 700-campo.width-10;
+     campo.y = 700-campo.height-74;
+     manolo.x = centrocampo_x;
+     manolo.y = centrocampo_y;
+     
+            int vel =5;
+            while(true){
+
+            manolo.moveX(vel);
+            manolo.moveY(vel);
+            campo.draw();
+            manolo.draw();
+           
+    
+            
+            
+            
+            if (manolo.collided(Main.background)){
+                
+                if (manolo.x+manolo.width-vel < Main.janela.WIDTH - Main.espaco_x2)
+                    manolo.x = Main.janela.WIDTH - Main.espaco_x2 - manolo.width;
+ 
+             //   if (quadrado1.y+quadrado1.height-6 < quadrado2.y)
+             //       quadrado1.y = quadrado2.y - quadrado2.height;
+ 
+            //    if (quadrado1.x > quadrado2.x + quadrado2.width-6)
+            //        quadrado1.x = quadrado2.x + quadrado2.width;
+               
+          //      if (quadrado1.y > quadrado2.y+quadrado2.height-6)
+           //         quadrado1.y = quadrado2.y + quadrado2.height;
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+           //     if (manolo.x == Main.espaco_x1)
+             //       manolo.x = manolo.x+vel;
+                
+               // if (manolo.x == Main.janela.WIDTH - Main.espaco_x2 - manolo.width)
+                 //   manolo.x = manolo.x-vel;
+             //   if (manolo.y == Main.espaco_y1)
+              //      manolo.y = manolo.y+vel;
+            }
+            
+            
+            Main.background.draw();
+            Main.janela.update();
+            Main.janela.delay(10);
+     
+}
+    
+}
+ 
+}
