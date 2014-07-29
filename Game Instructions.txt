@@ -1,0 +1,6 @@
+Search for the file "Meme Game.jar" in folder "Meme Game" and run it.
+
+
+Notes: 
+1- Game resolution is 750x700.
+2- Use spacebar to skip 'cinematics'
