@@ -1,4 +1,4 @@
-MemeGame
+Meme Game
 ========
 
 My first game and coded in java!
