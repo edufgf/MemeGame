@@ -5,9 +5,9 @@ My first game and coded in java!
 
 A game about memes and pedo bears.
 
-- 11 Levels (1 Boss and 1 Bonus).
-- 7 Special powers.
-- 2 Enemy types.
+- 11 Levels (1 Boss and 1 Bonus)
+- 7 Special powers
+- 2 Enemy types
 
 If you want to play the game, download the repository, open the 'Meme Game' folder and run 'Meme Game.jar'.
 
